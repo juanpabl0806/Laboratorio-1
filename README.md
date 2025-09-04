@@ -85,7 +85,11 @@ Permite que un mismo dispositivo se divida en secciones independientes.
 
 ## 1) Crear la USB booteable
 
+* Si quieres tener varios sistemas en la misma USB:
 
+     - Usa Ventoy → solo se instala una vez en la USB, y luego solo copias las ISOs dentro de la memoria.
+
+      - Al arrancar, puedes elegir qué sistema iniciar.
 
 ---
 
