@@ -68,6 +68,155 @@ Permite que un mismo dispositivo se divida en secciones independientes.
 
 ---
 
+# Instalación de Ubuntu usando una USB booteable (Rufus o Ventoy)
+
+> **Recomendación:** Haz copia de seguridad antes de modificar particiones. Conecta el cargador si es un portátil.
+
+---
+
+## 0) Requisitos
+
+* USB de **8 GB** o más.
+* Imagen **ISO de Ubuntu** (ej. Ubuntu 24.04 LTS).
+* **Rufus** (Ubuntu) o **Ventoy** (Windows/Linux).
+* PC con **UEFI/BIOS** y acceso al menú de arranque (teclas típicas: **F2**, **F9**, **Esc**, **F10**, **F11** según fabricante).
+
+---
+
+## 1) Crear la USB booteable
+
+
+
+---
+
+## 2) Arrancar el PC desde la USB
+
+1. Con la USB conectada, **reinicia** y abre el **menú de arranque** (F12/F9/Esc… según tu equipo).
+2. Selecciona **UEFI: <Tu USB>** si tu firmware es UEFI (recomendado). Si no, selecciona la USB en modo Legacy/BIOS.
+3. Con **Rufus** verás directamente el instalador de Ubuntu.
+   Con **Ventoy** verás un **menú**: elige la **ISO de Ubuntu**.
+
+**Pantallazos (inserta aquí):**
+
+* ![Pantallazo 5 – Menú de arranque (Boot Menu)]
+* ![Pantallazo 6 – Menú de Ventoy con ISOs]
+
+> Si recibes errores con *Secure Boot*, puedes **desactivarlo** temporalmente en BIOS/UEFI o, en Ventoy, **enrolar la clave** si el fabricante lo permite.
+
+---
+
+## 3) Instalación de Ubuntu: paso a paso
+
+> A continuación se muestra la ruta **guiada** con creación de particiones. Si ya hiciste espacio desde Windows (Administración de discos), salta directo a **3.5 Particionado manual (Something Else)**.
+
+### 3.1 Idioma e inicio
+
+* Elige **Español** y pulsa **Instalar Ubuntu**.
+
+**Pantallazo:**
+
+* ![Pantallazo 7 – Pantalla inicial del instalador]
+
+### 3.2 Conexión de red
+
+* Conéctate a Wi‑Fi o red cableada para descargar actualizaciones/controladores durante la instalación (opcional pero recomendado).
+
+
+### 3.3 Tipo de instalación
+
+* **Instalación normal** (con utilidades y navegador) o **mínima** (más ligera).
+* Marca **Descargar actualizaciones** y **Software de terceros** si quieres controladores propietarios (gráfica/Wi‑Fi) desde el inicio.
+
+**Pantallazo:**
+
+* ![Pantallazo 9 – Tipo de instalación y opciones]
+
+### 3.4 Método de particionado
+
+* Si aparece la opción **“Instalar Ubuntu junto a…”**, puedes usarla para redimensionar automáticamente.
+* Para control total, elige **“Más opciones / Something else”**. Aquí crearemos las particiones manualmente.
+
+**Pantallazo:**
+
+* ![Pantallazo 10 – Selección "Más opciones / Something else"]
+
+### 3.5 Particionado manual (Something Else)
+
+Primero, identifica si tu disco usa **GPT/UEFI** (lo usual en equipos modernos) o **MBR/BIOS**.
+
+#### 3.5.1 Esquema recomendado en UEFI (GPT)
+
+* **ESP (EFI System Partition)**: suele existir ya (100–500 MB, **FAT32**).
+
+  * **Acción**: selecciónala, marca **punto de montaje /boot/efi** y **NO formatear**.
+* **/ (raíz)**: **ext4**, **30–50 GB** (o más si podrás instalar muchas apps).
+* **swap**: 2–8 GB (si tienes mucha RAM, 2–4 GB suele bastar).
+
+#### 3.5.2 Esquema recomendado en BIOS/Legacy (MBR)
+
+* **/ (raíz)**: **ext4**, 30–50 GB o más.
+* **swap**: 2–8 GB.
+* (Opcional) **/home**: ext4 con el resto del espacio.
+
+>
+> * En **UEFI/GPT** suele ser el **disco** (ej. */dev/nvme0n1*) y el instalador pondrá GRUB en la **ESP**.
+> * En **MBR/BIOS** también elige el **disco** principal (no una partición).
+
+
+### 3.6 Confirmación de cambios
+
+* Acepta los cambios de particionado cuando el instalador te lo pida (esto **escribe en disco**).
+
+**Pantallazo:**
+
+* ![Pantallazo 17 – Confirmación de escritura en disco]
+
+### 3.7 Zona horaria
+
+* Selecciona tu ciudad/región.
+
+**Pantallazo:**
+
+* ![Pantallazo 18 – Selección de zona horaria]
+
+### 3.8 Usuario y contraseña
+
+* Crea tu usuario, nombre del equipo y contraseña. Puedes elegir **iniciar sesión automáticamente** o pedir contraseña.
+
+**Pantallazo:**
+
+* ![Pantallazo 19 – Creación de usuario]
+
+### 3.9 Instalación y reinicio
+
+* Espera a que finalice la copia de archivos y la configuración.
+* Pulsa **Reiniciar ahora** y **retira la USB** cuando el sistema lo indique.
+
+**Pantallazos (inserta aquí):**
+
+
+
+---
+
+## 4) Primer arranque y verificación (dual-boot)
+
+1. Si también tienes Windows, al encender verás el **menú de GRUB** con Ubuntu y Windows.
+2. Inicia en Ubuntu. Abre una terminal y ejecuta:
+
+```bash
+sudo apt update && sudo apt upgrade -y
+
+---
+
+## 6) Solución de problemas comunes
+
+* **No aparece la USB en el menú de arranque:** prueba otro puerto, recrea la USB en **FAT32**, verifica que está en modo **UEFI** si tu firmware es UEFI.
+* **Error con Secure Boot:** desactívalo temporalmente o usa la opción de **enrolar clave** (Ventoy). Ubuntu suele soportar Secure Boot.
+* **Falta opción “Instalar junto a Windows”:** usa **Más opciones (Something Else)** y crea las particiones manualmente.
+* **No veo la partición EFI (ESP):** en equipos UEFI debería existir (\~100–500 MB, FAT32). No la borres; selecciónala como **/boot/efi** sin formatear.
+
+---
+
 ## 📌 Conclusión
 
 - Rufus crea una memoria booteable para un sistema operativo específico.  
