@@ -102,11 +102,11 @@ Permite que un mismo dispositivo se divida en secciones independientes.
 
 **Pantallazos (inserta aquí):**
 
-* ![Pantallazo 5 – Menú de arranque (Boot Menu)]
-* <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/154a6735-e6ae-4a3c-bc95-170ecc42237a" />
+ ![Pantallazo 5 – Menú de arranque (Boot Menu)]
+ <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/154a6735-e6ae-4a3c-bc95-170ecc42237a" />
 
-* ![Pantallazo 6 – Menú de Ventoy con ISOs]
-* <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/cd17842d-5222-46d3-9245-e2ef038839f3" />
+ ![Pantallazo 6 – Menú de Ventoy con ISOs]
+ <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/cd17842d-5222-46d3-9245-e2ef038839f3" />
 <img width="400" height="532"   alt="image" src="https://github.com/user-attachments/assets/b7c26ed8-06c4-4d3e-8e9d-f2a612374cf2" />
 
 
@@ -122,15 +122,15 @@ Permite que un mismo dispositivo se divida en secciones independientes.
 ### 3.1 Idioma e inicio
 
 * En **GNU GRUB version**, elige **Try or Install Ubuntu**
-* <img width="400" height="502" alt="image" src="https://github.com/user-attachments/assets/b2283610-0203-4ef0-9e1d-e8beba22968b" />
+ <img width="400" height="502" alt="image" src="https://github.com/user-attachments/assets/b2283610-0203-4ef0-9e1d-e8beba22968b" />
 
 
 * Elige **Español** y pulsa **Instalar Ubuntu**.
 
-*<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/9480ebe8-5312-43ba-897c-425a0b829374" />
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/9480ebe8-5312-43ba-897c-425a0b829374" />
 
 
-* <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/99a7df50-b27a-497a-8e77-91c779860596" />
+ <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/99a7df50-b27a-497a-8e77-91c779860596" />
 
 ### 3.2 Conexión de red
 
