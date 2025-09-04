@@ -119,7 +119,8 @@ Permite que un mismo dispositivo se divida en secciones independientes.
 
 * Elige **Español** y pulsa **Instalar Ubuntu**.
 
-**Pantallazo:**
+*<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/9480ebe8-5312-43ba-897c-425a0b829374" />
+
 
 * <img width="400" height="531" alt="image" src="https://github.com/user-attachments/assets/5d20eb12-f704-45ec-a7a9-d5d9e39510b2" />
 
