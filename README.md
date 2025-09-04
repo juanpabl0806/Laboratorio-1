@@ -121,7 +121,8 @@ Permite que un mismo dispositivo se divida en secciones independientes.
 
 **Pantallazo:**
 
-* ![Pantallazo 7 – Pantalla inicial del instalador]
+* <img width="400" height="531" alt="image" src="https://github.com/user-attachments/assets/5d20eb12-f704-45ec-a7a9-d5d9e39510b2" />
+
 
 ### 3.2 Conexión de red
 
