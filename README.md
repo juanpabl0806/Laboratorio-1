@@ -212,7 +212,7 @@ Primero, identifica si tu disco usa **GPT/UEFI** (lo usual en equipos modernos) 
 **Pantallazos (inserta aquí):**
 
 * <img width="400" height="537" alt="image" src="https://github.com/user-attachments/assets/8ebd4537-0404-42a2-8028-b5da35561b62" />
-* <img width="407" height="506" alt="image" src="https://github.com/user-attachments/assets/cc25fccf-8342-433e-b533-a27c0c1c819f" />
+*<img width="407" height="506" alt="image" src="https://github.com/user-attachments/assets/cc25fccf-8342-433e-b533-a27c0c1c819f" />
 *<img width="400" height="577" alt="image" src="https://github.com/user-attachments/assets/224e6db6-c4b3-48d1-964d-0139de2107ef" />
 
 
