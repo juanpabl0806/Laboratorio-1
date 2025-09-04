@@ -100,7 +100,7 @@ Permite que un mismo dispositivo se divida en secciones independientes.
 3. Con **Rufus** verás directamente el instalador de Ubuntu.
    Con **Ventoy** verás un **menú**: elige la **ISO de Ubuntu**.
 
-**Pantallazos (inserta aquí):**
+
 
  
 * <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/154a6735-e6ae-4a3c-bc95-170ecc42237a" />
@@ -140,7 +140,7 @@ Permite que un mismo dispositivo se divida en secciones independientes.
 * **Instalación normal** (con utilidades y navegador) o **mínima** (más ligera).
 * Marca **Descargar actualizaciones** y **Software de terceros** si quieres controladores propietarios (gráfica/Wi‑Fi) desde el inicio.
 
-**Pantallazo:**
+
 
 * <img width="400" height="550" alt="image" src="https://github.com/user-attachments/assets/b2945a0f-c55f-4aa9-894a-b2c7623ebaa3" />
 
@@ -149,7 +149,7 @@ Permite que un mismo dispositivo se divida en secciones independientes.
 * Si aparece la opción **“Instalar Ubuntu junto a…”**, puedes usarla para redimensionar automáticamente.
 * Para control total, elige **“Más opciones / Something else”**. Aquí crearemos las particiones manualmente.
 
-**Pantallazo:**
+
 
 * <img width="400" height="506" alt="image" src="https://github.com/user-attachments/assets/ff50adee-4108-4bf1-8bd3-ddad160c7ca1" />
 
@@ -181,7 +181,7 @@ Primero, identifica si tu disco usa **GPT/UEFI** (lo usual en equipos modernos) 
 
 * Acepta los cambios de particionado cuando el instalador te lo pida (esto **escribe en disco**).
 
-**Pantallazo:**
+
 
 * <img width="406" height="510" alt="image" src="https://github.com/user-attachments/assets/f3058f43-f626-4d06-a91d-bf5aa644fa3e" />
 
@@ -190,7 +190,7 @@ Primero, identifica si tu disco usa **GPT/UEFI** (lo usual en equipos modernos) 
 
 * Selecciona tu ciudad/región.
 
-**Pantallazo:**
+
 
 * <img width="400" height="506" alt="image" src="https://github.com/user-attachments/assets/2755862b-3a06-4e14-ba3c-69ea69d4ba12" />
 
@@ -199,7 +199,7 @@ Primero, identifica si tu disco usa **GPT/UEFI** (lo usual en equipos modernos) 
 
 * Crea tu usuario, nombre del equipo y contraseña. Puedes elegir **iniciar sesión automáticamente** o pedir contraseña.
 
-**Pantallazo:**
+
 
 * <img width="400" height="516" alt="image" src="https://github.com/user-attachments/assets/a566906b-19f4-4368-ad21-0bb3095965c6" />
 
@@ -209,7 +209,7 @@ Primero, identifica si tu disco usa **GPT/UEFI** (lo usual en equipos modernos) 
 * Espera a que finalice la copia de archivos y la configuración.
 * Pulsa **Reiniciar ahora** y **retira la USB** cuando el sistema lo indique.
 
-**Pantallazos (inserta aquí):**
+
 
 * <img width="400" height="537" alt="image" src="https://github.com/user-attachments/assets/8ebd4537-0404-42a2-8028-b5da35561b62" />
 *<img width="407" height="506" alt="image" src="https://github.com/user-attachments/assets/cc25fccf-8342-433e-b533-a27c0c1c819f" />
