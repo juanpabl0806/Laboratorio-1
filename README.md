@@ -117,6 +117,10 @@ Permite que un mismo dispositivo se divida en secciones independientes.
 
 ### 3.1 Idioma e inicio
 
+* En **GNU GRUB version**, elige **Try or Install Ubuntu**
+* <img width="400" height="502" alt="image" src="https://github.com/user-attachments/assets/b2283610-0203-4ef0-9e1d-e8beba22968b" />
+
+
 * Elige **Español** y pulsa **Instalar Ubuntu**.
 
 *<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/9480ebe8-5312-43ba-897c-425a0b829374" />
