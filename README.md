@@ -203,8 +203,7 @@ Primero, identifica si tu disco usa **GPT/UEFI** (lo usual en equipos modernos) 
 1. Si también tienes Windows, al encender verás el **menú de GRUB** con Ubuntu y Windows.
 2. Inicia en Ubuntu. Abre una terminal y ejecuta:
 
-```bash
-sudo apt update && sudo apt upgrade -y
+" sudo apt update && sudo apt upgrade -y "
 
 ---
 
