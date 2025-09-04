@@ -99,6 +99,8 @@ Permite que un mismo dispositivo se divida en secciones independientes.
 **Pantallazos (inserta aquí):**
 
 * ![Pantallazo 5 – Menú de arranque (Boot Menu)]
+* <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/154a6735-e6ae-4a3c-bc95-170ecc42237a" />
+
 * ![Pantallazo 6 – Menú de Ventoy con ISOs]
 
 > Si recibes errores con *Secure Boot*, puedes **desactivarlo** temporalmente en BIOS/UEFI o, en Ventoy, **enrolar la clave** si el fabricante lo permite.
