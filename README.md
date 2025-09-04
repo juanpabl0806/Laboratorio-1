@@ -183,7 +183,8 @@ Primero, identifica si tu disco usa **GPT/UEFI** (lo usual en equipos modernos) 
 
 **Pantallazo:**
 
-* ![Pantallazo 17 – Confirmación de escritura en disco]
+* <img width="406" height="510" alt="image" src="https://github.com/user-attachments/assets/f3058f43-f626-4d06-a91d-bf5aa644fa3e" />
+
 
 ### 3.7 Zona horaria
 
@@ -191,7 +192,11 @@ Primero, identifica si tu disco usa **GPT/UEFI** (lo usual en equipos modernos) 
 
 **Pantallazo:**
 
-* ![Pantallazo 18 – Selección de zona horaria]
+* <img width="400" height="506" alt="image" src="https://github.com/user-attachments/assets/2755862b-3a06-4e14-ba3c-69ea69d4ba12" />
+* <img width="407" height="506" alt="image" src="https://github.com/user-attachments/assets/cc25fccf-8342-433e-b533-a27c0c1c819f" />
+
+* <img width="400" height="577" alt="image" src="https://github.com/user-attachments/assets/224e6db6-c4b3-48d1-964d-0139de2107ef" />
+
 
 ### 3.8 Usuario y contraseña
 
@@ -199,7 +204,8 @@ Primero, identifica si tu disco usa **GPT/UEFI** (lo usual en equipos modernos) 
 
 **Pantallazo:**
 
-* ![Pantallazo 19 – Creación de usuario]
+* <img width="400" height="516" alt="image" src="https://github.com/user-attachments/assets/a566906b-19f4-4368-ad21-0bb3095965c6" />
+
 
 ### 3.9 Instalación y reinicio
 
@@ -208,6 +214,7 @@ Primero, identifica si tu disco usa **GPT/UEFI** (lo usual en equipos modernos) 
 
 **Pantallazos (inserta aquí):**
 
+* <img width="400" height="537" alt="image" src="https://github.com/user-attachments/assets/8ebd4537-0404-42a2-8028-b5da35561b62" />
 
 
 ---
