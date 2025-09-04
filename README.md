@@ -1,5 +1,5 @@
-# Laboratorio-1
-Unidades Booteables y Sistemas Operativos 
+# Laboratorio 1: Unidades Booteables y Sistemas Operativos 
+
 # Proceso de Booteo y Conceptos Relacionados
 
 Este documento explica el proceso de booteo en memorias USB creadas con **Rufus** y **Ventoy**, además de conceptos clave como el **bootloader**, **GRUB**, los **sistemas de archivos compatibles** y la **estructura de particiones**.
