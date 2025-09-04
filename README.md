@@ -207,7 +207,7 @@ Primero, identifica si tu disco usa **GPT/UEFI** (lo usual en equipos modernos) 
 
 ---
 
-## 6) Solución de problemas comunes
+## 5) Solución de problemas comunes
 
 * **No aparece la USB en el menú de arranque:** prueba otro puerto, recrea la USB en **FAT32**, verifica que está en modo **UEFI** si tu firmware es UEFI.
 * **Error con Secure Boot:** desactívalo temporalmente o usa la opción de **enrolar clave** (Ventoy). Ubuntu suele soportar Secure Boot.
