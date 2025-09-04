@@ -142,7 +142,7 @@ Permite que un mismo dispositivo se divida en secciones independientes.
 
 **Pantallazo:**
 
-* ![Pantallazo 9 – Tipo de instalación y opciones]
+* <img width="676" height="470" alt="image" src="https://github.com/user-attachments/assets/b2945a0f-c55f-4aa9-894a-b2c7623ebaa3" />
 
 ### 3.4 Método de particionado
 
