@@ -193,9 +193,6 @@ Primero, identifica si tu disco usa **GPT/UEFI** (lo usual en equipos modernos) 
 **Pantallazo:**
 
 * <img width="400" height="506" alt="image" src="https://github.com/user-attachments/assets/2755862b-3a06-4e14-ba3c-69ea69d4ba12" />
-* <img width="407" height="506" alt="image" src="https://github.com/user-attachments/assets/cc25fccf-8342-433e-b533-a27c0c1c819f" />
-
-* <img width="400" height="577" alt="image" src="https://github.com/user-attachments/assets/224e6db6-c4b3-48d1-964d-0139de2107ef" />
 
 
 ### 3.8 Usuario y contraseña
@@ -215,6 +212,8 @@ Primero, identifica si tu disco usa **GPT/UEFI** (lo usual en equipos modernos) 
 **Pantallazos (inserta aquí):**
 
 * <img width="400" height="537" alt="image" src="https://github.com/user-attachments/assets/8ebd4537-0404-42a2-8028-b5da35561b62" />
+* <img width="407" height="506" alt="image" src="https://github.com/user-attachments/assets/cc25fccf-8342-433e-b533-a27c0c1c819f" />
+* <img width="400" height="577" alt="image" src="https://github.com/user-attachments/assets/224e6db6-c4b3-48d1-964d-0139de2107ef" />
 
 
 ---
