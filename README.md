@@ -151,7 +151,8 @@ Permite que un mismo dispositivo se divida en secciones independientes.
 
 **Pantallazo:**
 
-* ![Pantallazo 10 – Selección "Más opciones / Something else"]
+* <img width="400" height="506" alt="image" src="https://github.com/user-attachments/assets/ff50adee-4108-4bf1-8bd3-ddad160c7ca1" />
+
 
 ### 3.5 Particionado manual (Something Else)
 
