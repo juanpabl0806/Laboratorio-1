@@ -2,7 +2,7 @@
 
 # Proceso de Booteo y Conceptos Relacionados
 
-Este documento explica el proceso de booteo en memorias USB creadas con **Rufus** y **Ventoy**, además de conceptos clave como el **bootloader**, **GRUB**, los **sistemas de archivos compatibles** y la **estructura de particiones**.
+Este documento explica el proceso de booteo en memorias USB creadas con **Rufus** y **Ventoy**, además de conceptos clave como el **bootloader**, **GRUB**, los **sistemas de archivos compatibles** y la **estructura de particiones** incluyendo sus respectivos procedimientos para la correcta instalacion .
 
 ---
 
